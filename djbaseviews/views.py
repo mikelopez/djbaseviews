@@ -1,8 +1,10 @@
 from django.shortcuts import render
 from django.http import Http404, HttpResponse, HttpResponseRedirect
+
 # Create your views here.
 
-from django.views.generic import DetailView, ListView, TemplateView, CreateView, View
+from django.views.generic import DetailView, ListView, UpdateView,\
+                                 TemplateView, CreateView, View
 
 class BaseView(View):
     """
